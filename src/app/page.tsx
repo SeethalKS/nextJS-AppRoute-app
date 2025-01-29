@@ -1,15 +1,18 @@
-"use client";
+'use client';
 
 import Image from "next/image";
 import { useContext, useEffect, useState } from "react";
 import Link from "next/link";
 
 import { ProductsService } from "@/app/services/products-service";
-import "bootstrap/dist/js/bootstrap.bundle.min.js";
+
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./style.css";
 
 export default function Home() {
+  useEffect(() => {
+    require("bootstrap/dist/js/bootstrap.bundle.min.js");
+  }, []);
   const [products, setProducts] = useState<any[]>([]);
 
   useEffect(() => {

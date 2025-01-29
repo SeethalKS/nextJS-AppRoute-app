@@ -1,18 +1,17 @@
-'use client'
-import React, { useEffect } from 'react';
-import './Footer.css';
+"use client"; 
+
+import { useEffect, useState } from "react";
 
 export default function Footer() {
+  const [clientLoaded, setClientLoaded] = useState(false);
+
   useEffect(() => {
-    if (typeof window !== 'undefined') {
-      console.log("Fetch call from useEffect-Footer");
-      fetch('https://fakestoreapi.com/products');
-    }
+    setClientLoaded(true);
   }, []);
 
-  console.log("Footer");
-
   return (
-    <div className='downdiv'>@DummyAmazon</div>
+    <footer>
+      {clientLoaded && <p>{document.title}</p>} {/* Example usage */}
+    </footer>
   );
 }

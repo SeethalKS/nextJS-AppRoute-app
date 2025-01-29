@@ -1,5 +1,5 @@
 
-"use client";
+'use client';
 import React, { useState, useEffect, useContext } from "react";
 import ProductCard from "../product-card/ProductCard";
 import { ProductsService } from "@/app/services/products-service";
