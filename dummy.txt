@@ -1,0 +1,27 @@
+app
+├── components
+|   ├──footer
+|   |   └──Footer.tsx
+│   ├── cart
+│   │   └── Cart.tsx
+│   ├── product-card
+│   │   └── ProductCard.tsx
+│   ├── product-list
+│   │   └── ProductList.tsx
+│   ├── nav
+│       └── Nav.tsx      // Example shared component
+│
+├── context
+│   └── CartContext.ts
+│
+├── cartview
+│   └── page.tsx
+├── about-us
+|   └── page.tsx
+├── products
+|   ├──productId
+|   |     └── page.tsx
+|   ├──layout.tsx
+|   ├──page.tsx
+├──layout.tsx
+├──page.tsx
