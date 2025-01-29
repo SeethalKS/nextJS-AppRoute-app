@@ -42,13 +42,13 @@ export default function Home() {
               <Image
                 src={product.image}
                 alt={product.title}
-                width={250}
-                height={350}
-                className="d-block w-100"
+                width={190}
+                height={205}
+                className="d-block w-80"
               />
-              <div className="carousel-caption d-none d-md-block">
+              {/* <div className="carousel-caption d-none d-md-block">
                 <h5>{product.title}</h5>
-              </div>
+              </div> */}
             </div>
           ))}
         </div>
@@ -80,7 +80,7 @@ export default function Home() {
 
       <div className="setalign">
         <Link href="/products" className="nav-link">
-          <h4>Shop Now</h4>
+          <h4 style={{color:'red',fontStyle:'italic',left:'15px'}}>Shop Now</h4>
         </Link>
       </div>
     </div>
