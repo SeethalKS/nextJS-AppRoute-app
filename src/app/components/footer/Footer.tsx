@@ -1,23 +1,6 @@
-// "use client"; 
-
-// import { useEffect, useState } from "react";
-
-// export default function Footer() {
-//   const [clientLoaded, setClientLoaded] = useState(false);
-
-//   useEffect(() => {
-//     setClientLoaded(true);
-//   }, []);
-
-//   return (
-//     <footer>
-//       {clientLoaded && <p>{document.title}</p>} {/* Example usage */}
-//     </footer>
-//   );
-// }
 'use client'
 import React, { useEffect } from 'react'
-
+import './Footer.css'
 export default function Footer() {
     useEffect(()=>{
         console.log("Fetch call from useeffect-Footer");
@@ -25,6 +8,6 @@ export default function Footer() {
     },[]);
     console.log("Footer");
   return (
-    <div>Footer</div>
+    <div className='downdiv'>@FooterAppComm</div>
   )
 }
