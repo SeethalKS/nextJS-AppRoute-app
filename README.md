@@ -1,6 +1,10 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-## Getting Started
+##URL
+
+https://next-js-app-route-app.vercel.app/
+
+## Getting Started in local machine
 
 First, run the development server:
 
