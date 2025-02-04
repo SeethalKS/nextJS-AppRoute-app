@@ -9,6 +9,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import React, { useState } from "react";
 import CartContext, { CartItem } from "./context/CartContext";
 
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -68,6 +69,7 @@ export default function RootLayout({
             {children}
           </CartContext.Provider>
           <Footer />
+         
         </div>
       </body>
     </html>

@@ -1,5 +1,5 @@
 
-import { ProductsService } from "@/app/services/products-service";
+import { ProductsService } from "../../services/products-service";
 import { Metadata } from "next";
 import React from "react";
 
