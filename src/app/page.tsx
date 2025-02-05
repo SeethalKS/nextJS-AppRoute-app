@@ -27,7 +27,6 @@ export default function Home() {
   console.log(filteredArray_products);
   return (
     <div>
-      {/* Bootstrap Carousel */}
       <div
         id="productCarousel"
         className="carousel slide"
@@ -46,9 +45,6 @@ export default function Home() {
                 height={205}
                 className="d-block w-80"
               />
-              {/* <div className="carousel-caption d-none d-md-block">
-                <h5>{product.title}</h5>
-              </div> */}
             </div>
           ))}
         </div>

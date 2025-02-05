@@ -1,38 +1,32 @@
-
 #productCarousel {
-  width: 45%; 
+  width: 45%;
   margin-left: auto;
   margin-right: auto;
   margin-top: 15px;
 }
 
-
 .carousel-item img {
-  margin: 0 auto; 
+  margin: 0 auto;
   display: block;
 }
-
 
 .carousel-control-next {
   right: 20px;
 }
 
-
 .carousel-control-prev {
-  left: 20px; 
+  left: 20px;
 }
-
 
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
-  background-color: rgba(224, 216, 216, 0.6); 
+  background-color: rgba(224, 216, 216, 0.6);
   border-radius: 50%;
   padding: 10px;
 }
 
-
 .setalign {
-  text-align: center; 
+  text-align: center;
   margin-top: 20px;
 }
 

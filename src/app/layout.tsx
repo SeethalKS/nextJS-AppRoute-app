@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import "bootstrap/dist/css/bootstrap.css";
 import Nav from "./components/nav/Nav";
-import Link from "next/link";
+
 import Footer from "./components/footer/Footer";
 import "bootstrap/dist/css/bootstrap.min.css";
 import React, { useState } from "react";

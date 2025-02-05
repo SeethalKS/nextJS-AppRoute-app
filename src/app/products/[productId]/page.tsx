@@ -1,6 +1,5 @@
 
 import { ProductsService } from "../../services/products-service";
-import { Metadata } from "next";
 import React from "react";
 
 export async function generateMetadata(props: any) {
