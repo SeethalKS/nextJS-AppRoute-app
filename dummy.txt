@@ -24,4 +24,4 @@ app
 |   ├──layout.tsx
 |   ├──page.tsx
 ├──layout.tsx
-├──page.tsx
+├──page.tsx                         https://git.upcode.in/upcode/seethal-k-s/-/merge_requests/13

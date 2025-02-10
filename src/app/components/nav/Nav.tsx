@@ -43,6 +43,11 @@ export default function Nav() {
                   About Us
                 </Link>
               </li>
+              <li className="nav-item">
+                <Link className="nav-link" href={"/contact"}>
+                  Contact Us
+                </Link>
+              </li>
             </ul>
           </div>
         </div>
